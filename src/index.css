@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajoutez des styles globaux personnalisés ici si nécessaire */
+
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  @apply font-bold text-gray-900;
+}
+
+button {
+  @apply cursor-pointer focus:outline-none transition duration-200;
+}
+
+input, textarea, select {
+  @apply border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+}
